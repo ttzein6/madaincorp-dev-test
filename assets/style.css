@@ -53,6 +53,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 1rem;
 }
 .cardlogo{
     display: flex;
@@ -66,17 +67,19 @@
     font-weight: 600;
     font-size: 24px;
     margin: 1rem;
+    flex: 2;
 }
 .fname,.lname{
     font-size: 20px;
     font-weight: 400;
     color: #000;
-    margin-left: 0.5rem;
+    flex: 2;
 }
 .fname{
     margin-left: 1rem;
 }
 .category{
+    flex:2;
     text-align: center;
     border-radius: 20px;
     background-color: rgb(28, 122, 230);
@@ -86,5 +89,6 @@
     color: white;
     font-weight: 400;
     margin-top: 3rem;
-    margin-left: 8rem;
+    margin-left: 7rem;
+    margin-right: 1rem;
 }
